@@ -17,7 +17,7 @@ My solution for the [Frontend Mentor Blog Preview Card challenge](https://www.fr
 ## Built With
 
 - HTML
-- CSS (Flexbox, Grid)
+- CSS (Flexbox in boxes)
 
 ## What I Learned
 
