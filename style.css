@@ -14,11 +14,11 @@ body {
 
 .center-container {
   display: flex;
-  justify-content: center; /* по горизонтали */
-  align-items: center; /* по вертикали */
-  min-height: calc(100vh - 20vh); /* вычитаем примерную высоту attribution */
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 20vh);
   flex-direction: column;
-  gap: 24px; /* если хочешь отступ между контейнером и attribution */
+  gap: 24px;
 }
 
 .container {
@@ -37,14 +37,14 @@ body {
 }
 
 .container:hover .title {
-  color: #f4d04e; /* цвет при hover */
-  transition: color 0.5s ease; /* плавный переход */
+  color: #f4d04e;
+  transition: color 0.5s ease;
 }
 
 .container:hover {
   cursor: pointer;
-  box-shadow: 4px 4px 0px #000000; /* тень «отходит назад» */
-  transform: translate(-2px, -2px); /* сдвиг контейнера чуть назад */
+  box-shadow: 4px 4px 0px #000000;
+  transform: translate(-2px, -2px);
 }
 
 .first-img {
@@ -123,6 +123,6 @@ a {
 }
 
 .attribution {
-  margin-top: 50px; /* отступ сверху от контейнера */
+  margin-top: 50px;
   text-align: center;
 }
